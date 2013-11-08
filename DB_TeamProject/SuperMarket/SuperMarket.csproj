@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DCE68819-A478-4BFD-8D94-BD1394DEAEA3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SuperMarket</RootNamespace>
+    <AssemblyName>SuperMarket</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>..\packages\EPPlus.3.1.3.3\lib\net35\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\packages\DotNetZip.1.9.1.8\lib\net20\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\packages\mongocsharpdriver.1.8.1\lib\net35\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\packages\mongocsharpdriver.1.8.1\lib\net35\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.OpenAccess, Version=2013.2.702.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.OpenAccess.35.Extensions, Version=2013.2.702.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExcelToSqlServerExporter.cs" />
+    <Compile Include="FromMySQLToSQLServer.cs" />
+    <Compile Include="MainController.cs" />
+    <Compile Include="MongoDbToSqliteExporter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqliteDataToExcelFileExporter.cs" />
+    <Compile Include="SqlServerDataToMongoDbExporter.cs" />
+    <Compile Include="SqlServerToPdf.cs" />
+    <Compile Include="SqlServerToXml.cs" />
+    <Compile Include="XmlToDatabasesExporter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SuperMarket.Excel.Client\SuperMarket.Excel.Client.csproj">
+      <Project>{faf14352-aa13-43a2-b3b5-6874a8333668}</Project>
+      <Name>SuperMarket.Excel.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Supermarket.Formats\SuperMarket.Formats.csproj">
+      <Project>{a53c4f08-191f-4362-8fde-349169a371b3}</Project>
+      <Name>SuperMarket.Formats</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperMarket.MongoDB.Client\SuperMarket.MongoDB.Client.csproj">
+      <Project>{f36e9a14-0142-413d-989d-f40fd4f4802f}</Project>
+      <Name>SuperMarket.MongoDB.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperMarket.MySQL.Data\SuperMarket.MySQL.Data.csproj">
+      <Project>{C50145E6-A244-4F1F-B41F-90D1925B4A00}</Project>
+      <Name>SuperMarket.MySQL.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperMarket.PDF.Client\SuperMarket.PDF.Client.csproj">
+      <Project>{232c2d58-be93-4c59-9614-d0dab6da37c4}</Project>
+      <Name>SuperMarket.PDF.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperMarket.SQLite.DataProvider\SuperMarket.SQLite.DataProvider.csproj">
+      <Project>{1375e6fa-d8b7-42ee-b3b2-e9a26c4857c7}</Project>
+      <Name>SuperMarket.SQLite.DataProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperMarket.SQLite.Data\SuperMarket.SQLite.Data.csproj">
+      <Project>{63937156-b268-4bb0-a6b1-b617f8bb5438}</Project>
+      <Name>SuperMarket.SQLite.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperMarket.SQLite.Models\SuperMarket.SQLite.Models.csproj">
+      <Project>{3bf80ae4-8bbe-47d7-a2e7-78ad014e65ee}</Project>
+      <Name>SuperMarket.SQLite.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperMarket.SQLServer.Client\SuperMarket.SQLServer.Client.csproj">
+      <Project>{df4deed1-3288-448e-8dfa-8743e4c23ba9}</Project>
+      <Name>SuperMarket.SQLServer.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperMarket.SQLServer.Data\SuperMarket.SQLServer.Data.csproj">
+      <Project>{DD0FEB3A-F309-4AEE-8715-2EFF2088F037}</Project>
+      <Name>SuperMarket.SQLServer.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperMarket.SQLServer.Models\SuperMarket.SQLServer.Models.csproj">
+      <Project>{f909cece-a75a-4d37-872f-bdb3672a8e7e}</Project>
+      <Name>SuperMarket.SQLServer.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="DataSet\01-Jul-2013\Bourgas-Plaza-Sales-Report-01-Jul-2013.xls" />
+    <None Include="DataSet\01-Jul-2013\Gabrovo-Kapanche-Sales-Report-01-Jul-2013.xls" />
+    <None Include="DataSet\01-Jul-2013\Kaspichan-Center-Sales-Report-01-Jul-2013.xls" />
+    <None Include="DataSet\01-Jul-2013\Varna-Center-Sales-Report-01-Jul-2013.xls" />
+    <None Include="DataSet\01-Jul-2013\Zmeyovo-Garata-Sales-Report-01-Jul-2013.xls" />
+    <None Include="DataSet\02-Jul-2013\Bourgas-Plaza-Sales-Report-02-Jul-2013.xls" />
+    <None Include="DataSet\02-Jul-2013\Gabrovo-Kapanche-Sales-Report-02-Jul-2013.xls" />
+    <None Include="DataSet\02-Jul-2013\Kaspichan-Center-Sales-Report-02-Jul-2013.xls" />
+    <None Include="DataSet\02-Jul-2013\Varna-Center-Sales-Report-02-Jul-2013.xls" />
+    <None Include="DataSet\02-Jul-2013\Zmeyovo-Garata-Sales-Report-02-Jul-2013.xls" />
+    <None Include="DataSet\03-Jul-2013\Bourgas-Plaza-Sales-Report-03-Jul-2013.xls" />
+    <None Include="DataSet\03-Jul-2013\Gabrovo-Kapanche-Sales-Report-03-Jul-2013.xls" />
+    <None Include="DataSet\03-Jul-2013\Kaspichan-Center-Sales-Report-03-Jul-2013.xls" />
+    <None Include="DataSet\03-Jul-2013\Varna-Center-Sales-Report-03-Jul-2013.xls" />
+    <None Include="DataSet\03-Jul-2013\Zmeyovo-Garata-Sales-Report-03-Jul-2013.xls" />
+    <None Include="DataSet\04-Jul-2013\Bourgas-Plaza-Sales-Report-04-Jul-2013.xls" />
+    <None Include="DataSet\04-Jul-2013\Gabrovo-Kapanche-Sales-Report-04-Jul-2013.xls" />
+    <None Include="DataSet\04-Jul-2013\Kaspichan-Center-Sales-Report-04-Jul-2013.xls" />
+    <None Include="DataSet\04-Jul-2013\Varna-Center-Sales-Report-04-Jul-2013.xls" />
+    <None Include="DataSet\04-Jul-2013\Zmeyovo-Garata-Sales-Report-04-Jul-2013.xls" />
+    <None Include="DataSet\05-Jul-2013\Bourgas-Plaza-Sales-Report-05-Jul-2013.xls" />
+    <None Include="DataSet\05-Jul-2013\Gabrovo-Kapanche-Sales-Report-05-Jul-2013.xls" />
+    <None Include="DataSet\05-Jul-2013\Kaspichan-Center-Sales-Report-05-Jul-2013.xls" />
+    <None Include="DataSet\05-Jul-2013\Varna-Center-Sales-Report-05-Jul-2013.xls" />
+    <None Include="DataSet\05-Jul-2013\Zmeyovo-Garata-Sales-Report-05-Jul-2013.xls" />
+    <None Include="DataSet\06-Jul-2013\Bourgas-Plaza-Sales-Report-06-Jul-2013.xls" />
+    <None Include="DataSet\06-Jul-2013\Gabrovo-Kapanche-Sales-Report-06-Jul-2013.xls" />
+    <None Include="DataSet\06-Jul-2013\Kaspichan-Center-Sales-Report-06-Jul-2013.xls" />
+    <None Include="DataSet\06-Jul-2013\Varna-Center-Sales-Report-06-Jul-2013.xls" />
+    <None Include="DataSet\06-Jul-2013\Zmeyovo-Garata-Sales-Report-06-Jul-2013.xls" />
+    <None Include="DataSet\07-Jul-2013\Bourgas-Plaza-Sales-Report-07-Jul-2013.xls" />
+    <None Include="DataSet\07-Jul-2013\Gabrovo-Kapanche-Sales-Report-07-Jul-2013.xls" />
+    <None Include="DataSet\07-Jul-2013\Kaspichan-Center-Sales-Report-07-Jul-2013.xls" />
+    <None Include="DataSet\07-Jul-2013\Varna-Center-Sales-Report-07-Jul-2013.xls" />
+    <None Include="DataSet\07-Jul-2013\Zmeyovo-Garata-Sales-Report-07-Jul-2013.xls" />
+    <None Include="DataSet\08-Jul-2013\Bourgas-Plaza-Sales-Report-08-Jul-2013.xls" />
+    <None Include="DataSet\08-Jul-2013\Gabrovo-Kapanche-Sales-Report-08-Jul-2013.xls" />
+    <None Include="DataSet\08-Jul-2013\Kaspichan-Center-Sales-Report-08-Jul-2013.xls" />
+    <None Include="DataSet\08-Jul-2013\Varna-Center-Sales-Report-08-Jul-2013.xls" />
+    <None Include="DataSet\08-Jul-2013\Zmeyovo-Garata-Sales-Report-08-Jul-2013.xls" />
+    <None Include="DataSet\09-Jul-2013\Bourgas-Plaza-Sales-Report-09-Jul-2013.xls" />
+    <None Include="DataSet\09-Jul-2013\Gabrovo-Kapanche-Sales-Report-09-Jul-2013.xls" />
+    <None Include="DataSet\09-Jul-2013\Kaspichan-Center-Sales-Report-09-Jul-2013.xls" />
+    <None Include="DataSet\09-Jul-2013\Varna-Center-Sales-Report-09-Jul-2013.xls" />
+    <None Include="DataSet\09-Jul-2013\Zmeyovo-Garata-Sales-Report-09-Jul-2013.xls" />
+    <None Include="DataSet\10-Jul-2013\Bourgas-Plaza-Sales-Report-10-Jul-2013.xls" />
+    <None Include="DataSet\10-Jul-2013\Gabrovo-Kapanche-Sales-Report-10-Jul-2013.xls" />
+    <None Include="DataSet\10-Jul-2013\Kaspichan-Center-Sales-Report-10-Jul-2013.xls" />
+    <None Include="DataSet\10-Jul-2013\Varna-Center-Sales-Report-10-Jul-2013.xls" />
+    <None Include="DataSet\10-Jul-2013\Zmeyovo-Garata-Sales-Report-10-Jul-2013.xls" />
+    <None Include="DataSet\Sales-Reports.zip" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

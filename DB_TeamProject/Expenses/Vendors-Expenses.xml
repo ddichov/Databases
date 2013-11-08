@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sales>
+  <sale vendor="Juices">
+    <expenses month="Jun-2013">123.00</expenses>
+    <expenses month="Jul-2013">30.00</expenses>
+    <expenses month="Aug-2013">53.00</expenses>
+  </sale>
+  <sale vendor="Vita">
+    <expenses month="Jun-2013">83.00</expenses>
+    <expenses month="Jul-2013">136.00</expenses>
+    <expenses month="Aug-2013">19.00</expenses>
+  </sale>
+  <sale vendor="Chipi">
+    <expenses month="Jun-2013">155.00</expenses>
+    <expenses month="Jul-2013">174.00</expenses>
+    <expenses month="Aug-2013">129.00</expenses>
+  </sale>
+  <sale vendor="WheatProducts">
+    <expenses month="Jun-2013">103.00</expenses>
+    <expenses month="Jul-2013">32.00</expenses>
+    <expenses month="Aug-2013">135.00</expenses>
+  </sale>
+  <sale vendor="Quackers">
+    <expenses month="Jun-2013">167.00</expenses>
+    <expenses month="Jul-2013">102.00</expenses>
+    <expenses month="Aug-2013">69.00</expenses>
+  </sale>
+  <sale vendor="Crisps">
+    <expenses month="Jun-2013">171.00</expenses>
+    <expenses month="Jul-2013">40.00</expenses>
+    <expenses month="Aug-2013">23.00</expenses>
+  </sale>
+  <sale vendor="Cakes">
+    <expenses month="Jun-2013">63.00</expenses>
+    <expenses month="Jul-2013">86.00</expenses>
+    <expenses month="Aug-2013">149.00</expenses>
+  </sale>
+  <sale vendor="Land of Sweets">
+    <expenses month="Jun-2013">35.00</expenses>
+    <expenses month="Jul-2013">184.00</expenses>
+    <expenses month="Aug-2013">23.00</expenses>
+  </sale>
+  <sale vendor="Sweet Dreams">
+    <expenses month="Jun-2013">46.00</expenses>
+    <expenses month="Jul-2013">69.00</expenses>
+    <expenses month="Aug-2013">115.00</expenses>
+  </sale>
+  <sale vendor="Kellogg's">
+    <expenses month="Jun-2013">184.00</expenses>
+    <expenses month="Jul-2013">99.00</expenses>
+    <expenses month="Aug-2013">83.00</expenses>
+  </sale>
+  <sale vendor="MuesliFoods">
+    <expenses month="Jun-2013">182.00</expenses>
+    <expenses month="Jul-2013">65.00</expenses>
+    <expenses month="Aug-2013">247.00</expenses>
+  </sale>
+  <sale vendor="BestFoods">
+    <expenses month="Jun-2013">112.00</expenses>
+    <expenses month="Jul-2013">159.00</expenses>
+    <expenses month="Aug-2013">71.00</expenses>
+  </sale>
+  <sale vendor="CornFoods">
+    <expenses month="Jun-2013">30.00</expenses>
+    <expenses month="Jul-2013">123.00</expenses>
+    <expenses month="Aug-2013">53.00</expenses>
+  </sale>
+  <sale vendor="CocaCola">
+    <expenses month="Jun-2013">76.00</expenses>
+    <expenses month="Jul-2013">129.00</expenses>
+    <expenses month="Aug-2013">5.00</expenses>
+  </sale>
+  <sale vendor="KingOfSweet">
+    <expenses month="Jun-2013">134.00</expenses>
+    <expenses month="Jul-2013">139.00</expenses>
+    <expenses month="Aug-2013">73.00</expenses>
+  </sale>
+  <sale vendor="BagelWorld">
+    <expenses month="Jun-2013">12.00</expenses>
+    <expenses month="Jul-2013">85.00</expenses>
+    <expenses month="Aug-2013">197.00</expenses>
+  </sale>
+  <sale vendor="QiuckCooks">
+    <expenses month="Jun-2013">182.00</expenses>
+    <expenses month="Jul-2013">79.00</expenses>
+    <expenses month="Aug-2013">61.00</expenses>
+  </sale>
+  <sale vendor="Oatmeals">
+    <expenses month="Jun-2013">140.00</expenses>
+    <expenses month="Jul-2013">23.00</expenses>
+    <expenses month="Aug-2013">163.00</expenses>
+  </sale>
+  <sale vendor="SparklingDrinks">
+    <expenses month="Jun-2013">186.00</expenses>
+    <expenses month="Jul-2013">149.00</expenses>
+    <expenses month="Aug-2013">135.00</expenses>
+  </sale>
+  <sale vendor="RiceFoods">
+    <expenses month="Jun-2013">84.00</expenses>
+    <expenses month="Jul-2013">19.00</expenses>
+    <expenses month="Aug-2013">103.00</expenses>
+  </sale>
+</sales>

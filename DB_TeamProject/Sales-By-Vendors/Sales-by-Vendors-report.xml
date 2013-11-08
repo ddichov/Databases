@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<sales>
+	<sale vendor="BagelWorld">
+		<summary date="08-Jul-2013" total-sum="2237.28" />
+		<summary date="01-Jul-2013" total-sum="1491.52" />
+		<summary date="07-Jul-2013" total-sum="1112.32" />
+		<summary date="09-Jul-2013" total-sum="2300.48" />
+		<summary date="04-Jul-2013" total-sum="1719.04" />
+		<summary date="06-Jul-2013" total-sum="1377.76" />
+		<summary date="01-Jul-2013" total-sum="2300.48" />
+		<summary date="03-Jul-2013" total-sum="1112.32" />
+		<summary date="08-Jul-2013" total-sum="1719.04" />
+		<summary date="07-Jul-2013" total-sum="2224.64" />
+	</sale>
+	<sale vendor="BestFoods">
+		<summary date="04-Jul-2013" total-sum="414.60" />
+		<summary date="09-Jul-2013" total-sum="441.64" />
+		<summary date="10-Jul-2013" total-sum="566.62" />
+		<summary date="09-Jul-2013" total-sum="472.27" />
+		<summary date="06-Jul-2013" total-sum="1100.48" />
+		<summary date="01-Jul-2013" total-sum="687.80" />
+		<summary date="05-Jul-2013" total-sum="704.64" />
+		<summary date="07-Jul-2013" total-sum="1223.56" />
+		<summary date="03-Jul-2013" total-sum="44.61" />
+		<summary date="03-Jul-2013" total-sum="500.72" />
+		<summary date="01-Jul-2013" total-sum="58.72" />
+		<summary date="10-Jul-2013" total-sum="2750.95" />
+		<summary date="04-Jul-2013" total-sum="2321.76" />
+		<summary date="01-Jul-2013" total-sum="2294.12" />
+		<summary date="09-Jul-2013" total-sum="282.59" />
+		<summary date="08-Jul-2013" total-sum="625.90" />
+		<summary date="03-Jul-2013" total-sum="1223.56" />
+		<summary date="06-Jul-2013" total-sum="704.64" />
+		<summary date="10-Jul-2013" total-sum="123.08" />
+		<summary date="02-Jul-2013" total-sum="2750.95" />
+		<summary date="07-Jul-2013" total-sum="500.72" />
+		<summary date="04-Jul-2013" total-sum="462.42" />
+		<summary date="01-Jul-2013" total-sum="488.11" />
+		<summary date="05-Jul-2013" total-sum="1257.62" />
+		<summary date="10-Jul-2013" total-sum="403.99" />
+		<summary date="05-Jul-2013" total-sum="1100.48" />
+		<summary date="01-Jul-2013" total-sum="441.64" />
+		<summary date="02-Jul-2013" total-sum="566.62" />
+		<summary date="08-Jul-2013" total-sum="2321.76" />
+		<summary date="01-Jul-2013" total-sum="2304.85" />
+	</sale>
+	<sale vendor="Cakes">
+		<summary date="07-Jul-2013" total-sum="866.32" />
+		<summary date="10-Jul-2013" total-sum="612.04" />
+		<summary date="06-Jul-2013" total-sum="70.97" />
+		<summary date="04-Jul-2013" total-sum="179.54" />
+		<summary date="08-Jul-2013" total-sum="1126.84" />
+		<summary date="09-Jul-2013" total-sum="949.13" />
+		<summary date="05-Jul-2013" total-sum="228.80" />
+		<summary date="05-Jul-2013" total-sum="376.64" />
+		<summary date="02-Jul-2013" total-sum="496.86" />
+		<summary date="03-Jul-2013" total-sum="787.52" />
+		<summary date="06-Jul-2013" total-sum="223.08" />
+		<summary date="09-Jul-2013" total-sum="152.88" />
+		<summary date="07-Jul-2013" total-sum="331.76" />
+		<summary date="03-Jul-2013" total-sum="16.92" />
+		<summary date="07-Jul-2013" total-sum="299.60" />
+		<summary date="02-Jul-2013" total-sum="723.20" />
+		<summary date="03-Jul-2013" total-sum="165.88" />
+		<summary date="05-Jul-2013" total-sum="502.85" />
+		<summary date="03-Jul-2013" total-sum="1101.10" />
+		<summary date="02-Jul-2013" total-sum="612.04" />
+		<summary date="02-Jul-2013" total-sum="408.98" />
+		<summary date="04-Jul-2013" total-sum="1126.84" />
+		<summary date="08-Jul-2013" total-sum="51.36" />
+		<summary date="07-Jul-2013" total-sum="165.88" />
+		<summary date="01-Jul-2013" total-sum="666.70" />
+		<summary date="08-Jul-2013" total-sum="179.54" />
+		<summary date="01-Jul-2013" total-sum="16.92" />
+		<summary date="06-Jul-2013" total-sum="267.40" />
+		<summary date="05-Jul-2013" total-sum="1085.37" />
+		<summary date="01-Jul-2013" total-sum="3083.08" />
+		<summary date="03-Jul-2013" total-sum="866.32" />
+		<summary date="01-Jul-2013" total-sum="949.13" />
+		<summary date="06-Jul-2013" total-sum="376.64" />
+		<summary date="06-Jul-2013" total-sum="502.85" />
+		<summary date="08-Jul-2013" total-sum="1462.89" />
+		<summary date="02-Jul-2013" total-sum="8.56" />
+		<summary date="07-Jul-2013" total-sum="1101.10" />
+		<summary date="03-Jul-2013" total-sum="570.65" />
+		<summary date="04-Jul-2013" total-sum="68.64" />
+		<summary date="08-Jul-2013" total-sum="206.28" />
+		<summary date="01-Jul-2013" total-sum="566.93" />
+		<summary date="07-Jul-2013" total-sum="16.92" />
+		<summary date="09-Jul-2013" total-sum="666.70" />
+	</sale>
+	<sale vendor="Chipi">
+		<summary date="08-Jul-2013" total-sum="1108.01" />
+		<summary date="06-Jul-2013" total-sum="730.42" />
+		<summary date="09-Jul-2013" total-sum="9.12" />
+		<summary date="06-Jul-2013" total-sum="1083.25" />
+		<summary date="02-Jul-2013" total-sum="144.40" />
+		<summary date="05-Jul-2013" total-sum="1083.25" />
+		<summary date="03-Jul-2013" total-sum="693.28" />
+		<summary date="01-Jul-2013" total-sum="375.75" />
+		<summary date="07-Jul-2013" total-sum="841.84" />
+		<summary date="07-Jul-2013" total-sum="151.24" />
+		<summary date="10-Jul-2013" total-sum="144.40" />
+		<summary date="10-Jul-2013" total-sum="179.51" />
+		<summary date="04-Jul-2013" total-sum="1108.01" />
+		<summary date="06-Jul-2013" total-sum="24.32" />
+		<summary date="01-Jul-2013" total-sum="9.12" />
+	</sale>
+	<sale vendor="CocaCola">
+		<summary date="08-Jul-2013" total-sum="283.80" />
+		<summary date="01-Jul-2013" total-sum="2491.00" />
+		<summary date="01-Jul-2013" total-sum="1855.00" />
+		<summary date="03-Jul-2013" total-sum="2340.48" />
+		<summary date="10-Jul-2013" total-sum="1393.20" />
+		<summary date="06-Jul-2013" total-sum="457.92" />
+		<summary date="08-Jul-2013" total-sum="2305.50" />
+		<summary date="10-Jul-2013" total-sum="997.60" />
+		<summary date="09-Jul-2013" total-sum="3103.68" />
+		<summary date="02-Jul-2013" total-sum="997.60" />
+		<summary date="04-Jul-2013" total-sum="283.80" />
+	</sale>
+	<sale vendor="CornFoods">
+		<summary date="01-Jul-2013" total-sum="442.00" />
+		<summary date="10-Jul-2013" total-sum="598.40" />
+		<summary date="03-Jul-2013" total-sum="448.80" />
+		<summary date="08-Jul-2013" total-sum="163.20" />
+		<summary date="09-Jul-2013" total-sum="442.00" />
+		<summary date="08-Jul-2013" total-sum="1060.80" />
+		<summary date="05-Jul-2013" total-sum="236.00" />
+		<summary date="04-Jul-2013" total-sum="163.20" />
+		<summary date="09-Jul-2013" total-sum="1230.80" />
+	</sale>
+	<sale vendor="Crisps">
+		<summary date="07-Jul-2013" total-sum="594.88" />
+		<summary date="08-Jul-2013" total-sum="162.24" />
+		<summary date="10-Jul-2013" total-sum="668.00" />
+		<summary date="05-Jul-2013" total-sum="425.85" />
+		<summary date="05-Jul-2013" total-sum="459.68" />
+		<summary date="06-Jul-2013" total-sum="459.68" />
+		<summary date="05-Jul-2013" total-sum="434.20" />
+		<summary date="09-Jul-2013" total-sum="1469.60" />
+		<summary date="01-Jul-2013" total-sum="135.20" />
+		<summary date="03-Jul-2013" total-sum="594.88" />
+		<summary date="03-Jul-2013" total-sum="527.28" />
+		<summary date="06-Jul-2013" total-sum="425.85" />
+	</sale>
+	<sale vendor="Juices">
+		<summary date="01-Jul-2013" total-sum="1115.17" />
+		<summary date="09-Jul-2013" total-sum="1958.71" />
+		<summary date="09-Jul-2013" total-sum="22.12" />
+		<summary date="09-Jul-2013" total-sum="17.50" />
+		<summary date="04-Jul-2013" total-sum="714.21" />
+		<summary date="01-Jul-2013" total-sum="22.12" />
+		<summary date="08-Jul-2013" total-sum="208.62" />
+		<summary date="09-Jul-2013" total-sum="501.20" />
+		<summary date="08-Jul-2013" total-sum="714.21" />
+		<summary date="09-Jul-2013" total-sum="1115.17" />
+		<summary date="04-Jul-2013" total-sum="208.62" />
+		<summary date="06-Jul-2013" total-sum="2.24" />
+		<summary date="09-Jul-2013" total-sum="150.67" />
+		<summary date="01-Jul-2013" total-sum="1958.71" />
+		<summary date="08-Jul-2013" total-sum="23.94" />
+		<summary date="05-Jul-2013" total-sum="14.98" />
+		<summary date="06-Jul-2013" total-sum="14.98" />
+		<summary date="01-Jul-2013" total-sum="1831.22" />
+		<summary date="05-Jul-2013" total-sum="2004.80" />
+	</sale>
+	<sale vendor="Kellogg's">
+		<summary date="08-Jul-2013" total-sum="637.00" />
+		<summary date="10-Jul-2013" total-sum="2049.72" />
+		<summary date="05-Jul-2013" total-sum="197.08" />
+		<summary date="10-Jul-2013" total-sum="560.56" />
+		<summary date="09-Jul-2013" total-sum="788.32" />
+		<summary date="03-Jul-2013" total-sum="469.96" />
+		<summary date="04-Jul-2013" total-sum="291.20" />
+		<summary date="06-Jul-2013" total-sum="197.08" />
+		<summary date="01-Jul-2013" total-sum="788.32" />
+		<summary date="07-Jul-2013" total-sum="469.96" />
+		<summary date="08-Jul-2013" total-sum="1498.72" />
+		<summary date="08-Jul-2013" total-sum="694.26" />
+		<summary date="02-Jul-2013" total-sum="560.56" />
+		<summary date="04-Jul-2013" total-sum="694.26" />
+		<summary date="04-Jul-2013" total-sum="1498.72" />
+		<summary date="06-Jul-2013" total-sum="606.40" />
+		<summary date="05-Jul-2013" total-sum="14.56" />
+		<summary date="06-Jul-2013" total-sum="66.12" />
+		<summary date="08-Jul-2013" total-sum="291.20" />
+		<summary date="01-Jul-2013" total-sum="1719.12" />
+		<summary date="05-Jul-2013" total-sum="66.12" />
+		<summary date="01-Jul-2013" total-sum="374.92" />
+		<summary date="03-Jul-2013" total-sum="2395.28" />
+		<summary date="06-Jul-2013" total-sum="14.56" />
+	</sale>
+	<sale vendor="KingOfSweet">
+		<summary date="01-Jul-2013" total-sum="367.01" />
+		<summary date="07-Jul-2013" total-sum="870.72" />
+		<summary date="05-Jul-2013" total-sum="99.77" />
+		<summary date="09-Jul-2013" total-sum="838.88" />
+		<summary date="09-Jul-2013" total-sum="367.01" />
+		<summary date="10-Jul-2013" total-sum="1468.04" />
+		<summary date="06-Jul-2013" total-sum="99.77" />
+		<summary date="04-Jul-2013" total-sum="1108.52" />
+		<summary date="03-Jul-2013" total-sum="1041.11" />
+		<summary date="08-Jul-2013" total-sum="1108.52" />
+		<summary date="01-Jul-2013" total-sum="1269.80" />
+		<summary date="04-Jul-2013" total-sum="719.04" />
+		<summary date="03-Jul-2013" total-sum="870.72" />
+		<summary date="01-Jul-2013" total-sum="1393.14" />
+	</sale>
+	<sale vendor="Land of Sweets">
+		<summary date="04-Jul-2013" total-sum="98.28" />
+		<summary date="09-Jul-2013" total-sum="1131.78" />
+		<summary date="08-Jul-2013" total-sum="1028.16" />
+		<summary date="05-Jul-2013" total-sum="155.26" />
+		<summary date="09-Jul-2013" total-sum="1088.25" />
+		<summary date="01-Jul-2013" total-sum="1131.78" />
+		<summary date="03-Jul-2013" total-sum="576.68" />
+		<summary date="04-Jul-2013" total-sum="476.87" />
+		<summary date="09-Jul-2013" total-sum="343.79" />
+		<summary date="03-Jul-2013" total-sum="1286.44" />
+		<summary date="04-Jul-2013" total-sum="1028.16" />
+		<summary date="03-Jul-2013" total-sum="1741.20" />
+		<summary date="06-Jul-2013" total-sum="876.11" />
+		<summary date="01-Jul-2013" total-sum="1918.57" />
+		<summary date="01-Jul-2013" total-sum="11.09" />
+		<summary date="05-Jul-2013" total-sum="876.11" />
+		<summary date="06-Jul-2013" total-sum="1451.52" />
+		<summary date="08-Jul-2013" total-sum="151.20" />
+		<summary date="07-Jul-2013" total-sum="1286.44" />
+		<summary date="09-Jul-2013" total-sum="1519.33" />
+		<summary date="05-Jul-2013" total-sum="1001.19" />
+		<summary date="01-Jul-2013" total-sum="343.79" />
+	</sale>
+	<sale vendor="MuesliFoods">
+		<summary date="01-Jul-2013" total-sum="386.46" />
+		<summary date="06-Jul-2013" total-sum="448.02" />
+		<summary date="06-Jul-2013" total-sum="332.28" />
+		<summary date="05-Jul-2013" total-sum="307.80" />
+		<summary date="08-Jul-2013" total-sum="3.42" />
+		<summary date="09-Jul-2013" total-sum="65.52" />
+		<summary date="05-Jul-2013" total-sum="332.28" />
+		<summary date="06-Jul-2013" total-sum="307.80" />
+		<summary date="09-Jul-2013" total-sum="386.46" />
+		<summary date="04-Jul-2013" total-sum="461.70" />
+	</sale>
+	<sale vendor="Oatmeals">
+		<summary date="02-Jul-2013" total-sum="200.77" />
+		<summary date="04-Jul-2013" total-sum="661.36" />
+		<summary date="07-Jul-2013" total-sum="1440.82" />
+		<summary date="08-Jul-2013" total-sum="661.36" />
+		<summary date="01-Jul-2013" total-sum="330.68" />
+		<summary date="10-Jul-2013" total-sum="200.77" />
+		<summary date="02-Jul-2013" total-sum="684.98" />
+	</sale>
+	<sale vendor="QiuckCooks">
+		<summary date="10-Jul-2013" total-sum="174.96" />
+		<summary date="10-Jul-2013" total-sum="315.36" />
+		<summary date="02-Jul-2013" total-sum="315.36" />
+	</sale>
+	<sale vendor="Quackers">
+		<summary date="07-Jul-2013" total-sum="299.88" />
+		<summary date="10-Jul-2013" total-sum="381.12" />
+		<summary date="01-Jul-2013" total-sum="1709.68" />
+		<summary date="05-Jul-2013" total-sum="91.76" />
+		<summary date="03-Jul-2013" total-sum="1162.98" />
+		<summary date="08-Jul-2013" total-sum="405.72" />
+		<summary date="02-Jul-2013" total-sum="856.80" />
+		<summary date="03-Jul-2013" total-sum="1508.60" />
+		<summary date="02-Jul-2013" total-sum="381.12" />
+		<summary date="05-Jul-2013" total-sum="416.64" />
+		<summary date="05-Jul-2013" total-sum="1332.80" />
+		<summary date="02-Jul-2013" total-sum="1679.86" />
+		<summary date="09-Jul-2013" total-sum="530.40" />
+		<summary date="07-Jul-2013" total-sum="1508.60" />
+		<summary date="04-Jul-2013" total-sum="405.72" />
+		<summary date="06-Jul-2013" total-sum="1332.80" />
+		<summary date="09-Jul-2013" total-sum="282.72" />
+		<summary date="01-Jul-2013" total-sum="979.02" />
+		<summary date="07-Jul-2013" total-sum="1162.98" />
+		<summary date="07-Jul-2013" total-sum="1127.48" />
+		<summary date="05-Jul-2013" total-sum="520.38" />
+		<summary date="06-Jul-2013" total-sum="91.76" />
+		<summary date="07-Jul-2013" total-sum="793.80" />
+		<summary date="03-Jul-2013" total-sum="793.80" />
+		<summary date="07-Jul-2013" total-sum="829.60" />
+	</sale>
+	<sale vendor="RiceFoods">
+		<summary date="07-Jul-2013" total-sum="846.72" />
+		<summary date="10-Jul-2013" total-sum="35.28" />
+		<summary date="04-Jul-2013" total-sum="1411.20" />
+		<summary date="08-Jul-2013" total-sum="1411.20" />
+		<summary date="01-Jul-2013" total-sum="778.72" />
+		<summary date="08-Jul-2013" total-sum="934.92" />
+		<summary date="01-Jul-2013" total-sum="2059.84" />
+	</sale>
+	<sale vendor="SparklingDrinks">
+		<summary date="02-Jul-2013" total-sum="118.50" />
+		<summary date="08-Jul-2013" total-sum="54.51" />
+		<summary date="10-Jul-2013" total-sum="118.50" />
+	</sale>
+	<sale vendor="Sweet Dreams">
+		<summary date="07-Jul-2013" total-sum="799.10" />
+		<summary date="01-Jul-2013" total-sum="64.26" />
+		<summary date="07-Jul-2013" total-sum="2109.10" />
+		<summary date="02-Jul-2013" total-sum="835.38" />
+		<summary date="10-Jul-2013" total-sum="2370.72" />
+		<summary date="05-Jul-2013" total-sum="593.96" />
+		<summary date="09-Jul-2013" total-sum="670.14" />
+		<summary date="04-Jul-2013" total-sum="1921.72" />
+		<summary date="10-Jul-2013" total-sum="938.84" />
+		<summary date="10-Jul-2013" total-sum="835.38" />
+		<summary date="05-Jul-2013" total-sum="1676.80" />
+		<summary date="02-Jul-2013" total-sum="560.43" />
+		<summary date="06-Jul-2013" total-sum="593.96" />
+		<summary date="05-Jul-2013" total-sum="1634.36" />
+		<summary date="02-Jul-2013" total-sum="422.28" />
+		<summary date="09-Jul-2013" total-sum="2873.60" />
+		<summary date="10-Jul-2013" total-sum="560.43" />
+		<summary date="05-Jul-2013" total-sum="1377.00" />
+		<summary date="06-Jul-2013" total-sum="716.04" />
+		<summary date="03-Jul-2013" total-sum="2109.10" />
+	</sale>
+	<sale vendor="Vita">
+		<summary date="02-Jul-2013" total-sum="1183.49" />
+		<summary date="01-Jul-2013" total-sum="197.23" />
+		<summary date="10-Jul-2013" total-sum="161.37" />
+		<summary date="10-Jul-2013" total-sum="2463.55" />
+		<summary date="08-Jul-2013" total-sum="2565.49" />
+		<summary date="01-Jul-2013" total-sum="2850.87" />
+		<summary date="08-Jul-2013" total-sum="1488.19" />
+		<summary date="04-Jul-2013" total-sum="2413.09" />
+		<summary date="06-Jul-2013" total-sum="1813.66" />
+		<summary date="10-Jul-2013" total-sum="1183.49" />
+		<summary date="04-Jul-2013" total-sum="1488.19" />
+		<summary date="02-Jul-2013" total-sum="2133.67" />
+		<summary date="09-Jul-2013" total-sum="197.23" />
+		<summary date="10-Jul-2013" total-sum="2133.67" />
+		<summary date="08-Jul-2013" total-sum="2413.09" />
+		<summary date="04-Jul-2013" total-sum="2428.46" />
+	</sale>
+	<sale vendor="WheatProducts">
+		<summary date="10-Jul-2013" total-sum="1355.12" />
+		<summary date="02-Jul-2013" total-sum="1563.60" />
+		<summary date="10-Jul-2013" total-sum="561.20" />
+		<summary date="01-Jul-2013" total-sum="1447.16" />
+		<summary date="08-Jul-2013" total-sum="280.60" />
+		<summary date="02-Jul-2013" total-sum="2343.77" />
+		<summary date="01-Jul-2013" total-sum="1604.32" />
+		<summary date="07-Jul-2013" total-sum="1528.44" />
+		<summary date="03-Jul-2013" total-sum="912.34" />
+		<summary date="03-Jul-2013" total-sum="1528.44" />
+		<summary date="06-Jul-2013" total-sum="2606.00" />
+		<summary date="04-Jul-2013" total-sum="280.60" />
+		<summary date="01-Jul-2013" total-sum="2092.09" />
+		<summary date="05-Jul-2013" total-sum="2102.96" />
+		<summary date="01-Jul-2013" total-sum="156.36" />
+		<summary date="02-Jul-2013" total-sum="561.20" />
+		<summary date="10-Jul-2013" total-sum="963.80" />
+		<summary date="10-Jul-2013" total-sum="1886.16" />
+		<summary date="10-Jul-2013" total-sum="1563.60" />
+		<summary date="09-Jul-2013" total-sum="1447.16" />
+		<summary date="10-Jul-2013" total-sum="2343.77" />
+		<summary date="03-Jul-2013" total-sum="1214.08" />
+		<summary date="09-Jul-2013" total-sum="1604.32" />
+		<summary date="09-Jul-2013" total-sum="2037.92" />
+	</sale>
+</sales>

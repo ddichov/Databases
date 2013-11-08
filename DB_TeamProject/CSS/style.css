@@ -1,0 +1,40 @@
+table
+{
+border-collapse:collapse;
+width: 600px;
+}
+
+table,th,td
+{
+border:1px black;
+}
+
+th
+{
+text-align:center;
+}
+
+.title
+{
+font-size:20px;
+}
+
+.date
+{
+text-align:left;
+}
+
+.sum
+{
+text-align:right;
+}
+
+.grayBack
+{
+background-color:gray;
+}
+
+.bold
+{
+font-weight: bold;
+}

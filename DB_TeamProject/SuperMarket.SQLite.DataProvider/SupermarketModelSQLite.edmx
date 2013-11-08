@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SuperMarketModel.Store" Alias="Self" Provider="System.Data.SQLite" ProviderManifestToken="ISO8601" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="SuperMarketModelStoreContainer">
+          <EntitySet Name="Products" EntityType="SuperMarketModel.Store.Products" store:Type="Tables" />
+          <EntitySet Name="TaxTables" EntityType="SuperMarketModel.Store.TaxTables" store:Type="Tables" />
+          <AssociationSet Name="FK_Products_0_0" Association="SuperMarketModel.Store.FK_Products_0_0">
+            <End Role="TaxTables" EntitySet="TaxTables" />
+            <End Role="Products" EntitySet="Products" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Products">
+          <Key>
+            <PropertyRef Name="ProductId" />
+          </Key>
+          <Property Name="ProductId" Type="int" Nullable="false" />
+          <Property Name="ProductName" Type="nvarchar" MaxLength="80" />
+          <Property Name="VendorName" Type="nvarchar" MaxLength="50" />
+          <Property Name="TotalIncomes" Type="decimal" Precision="10" Scale="2" />
+        </EntityType>
+        <EntityType Name="TaxTables">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="ProductName" Type="char" Nullable="false" />
+          <Property Name="Tax" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+        </EntityType>
+        <Association Name="FK_Products_0_0">
+          <End Role="TaxTables" Type="SuperMarketModel.Store.TaxTables" Multiplicity="1" />
+          <End Role="Products" Type="SuperMarketModel.Store.Products" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="TaxTables">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Products">
+              <PropertyRef Name="ProductId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SuperMarketModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="SuperMarketEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="TaxTables" EntityType="SuperMarketModel.TaxTable" />
+          <EntitySet Name="Products" EntityType="SuperMarketModel.Product" />
+          <AssociationSet Name="FK_Products_0_0" Association="SuperMarketModel.FK_Products_0_0">
+            <End Role="TaxTable" EntitySet="TaxTables" />
+            <End Role="Product" EntitySet="Products" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="TaxTable">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="ProductName" Type="String" Nullable="false" MaxLength="2147483647" Unicode="false" FixedLength="true" />
+          <Property Name="Tax" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+          <NavigationProperty Name="Product" Relationship="SuperMarketModel.FK_Products_0_0" FromRole="TaxTable" ToRole="Product" />
+        </EntityType>
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="ProductId" />
+          </Key>
+          <Property Type="Int32" Name="ProductId" Nullable="false" />
+          <Property Type="String" Name="ProductName" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="VendorName" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Decimal" Name="TotalIncomes" Precision="10" Scale="2" />
+          <NavigationProperty Name="TaxTable" Relationship="SuperMarketModel.FK_Products_0_0" FromRole="Product" ToRole="TaxTable" />
+        </EntityType>
+        <Association Name="FK_Products_0_0">
+          <End Type="SuperMarketModel.TaxTable" Role="TaxTable" Multiplicity="1" />
+          <End Type="SuperMarketModel.Product" Role="Product" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="TaxTable">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Product">
+              <PropertyRef Name="ProductId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SuperMarketModelStoreContainer" CdmEntityContainer="SuperMarketEntities">
+          <EntitySetMapping Name="TaxTables">
+            <EntityTypeMapping TypeName="SuperMarketModel.TaxTable">
+              <MappingFragment StoreEntitySet="TaxTables">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+                <ScalarProperty Name="Tax" ColumnName="Tax" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Products">
+            <EntityTypeMapping TypeName="SuperMarketModel.Product">
+              <MappingFragment StoreEntitySet="Products">
+                <ScalarProperty Name="TotalIncomes" ColumnName="TotalIncomes" />
+                <ScalarProperty Name="VendorName" ColumnName="VendorName" />
+                <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
